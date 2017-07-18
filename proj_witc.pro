@@ -12,11 +12,8 @@ TARGET = proj_witc
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp
-
-HEADERS  += mainwindow.h
-
-FORMS += \
-    form.ui
+SOURCES = src/main.cpp \
+          src/mainwindow.cpp
+HEADERS = src/mainwindow.h
+FORMS   = ui/form.ui
 
